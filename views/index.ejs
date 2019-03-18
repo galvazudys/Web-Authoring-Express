@@ -1,205 +1,55 @@
 
 <%include ./partials/header%>
-  <div class="ui large top fixed hidden menu">
-    <div class="ui container">
-      <a href='/' id="logoName" class="item">WorkForcers</a>
-      <a href='/about_product' class="active item">About Product</a><a
-        href='/about_team'
-        class="item">About Team</a><a href='/testimonials'
-        class="item">Testimonials</a><a href='/contacts'class="item">Contacts</a>
-      <div class="right menu">
-        <div class="item">
-          <a href='/pricing' class="ui button">Pricing</a>
-        </div>
-        <div class="item">
-          <a href='/login' class="ui button">Log in</a>
-        </div>
-        <div class="item">
-          <a href='/try_for_free' class="ui primary button">Try For Free</a>
-        </div>
-      </div>
-    </div>
-  </div>
+
   <!--Sidebar Menu-->
-  <div class="ui vertical sidebar menu">
-    <a id="logoName" class="item">WorkForcers</a>
-    <a href='/about_product' class="active item">About Product</a><a
-      class="item">About Team</a><a
-      class="item">Testimonials</a><a class="item">Contacts</a><a class="item">Pricing</a><a
-      class="item">Login</a><a class="item">Try For Free</a>
-  </div>
-  <!--Page Contents-->
-  <div class="pusher">
-    <div class="ui inverted vertical masthead center aligned segment">
-      <div class="ui container">
-        <div class="ui large secondary pointing menu">
-          <a id="logoName" class="item">WorkForcers</a>
-          <a class="toc item"><i class="sidebar icon"></i></a><a
-            href='/about_product' class="active
-            item">About Product</a><a class="item">About Team</a><a
-            class="item">Testimonials</a><a class="item">Contacts</a>
-          <div class="right item">
-            <a class="ui inverted button">Pricing</a><a class="ui inverted
-              button">Log in</a><a class="ui primary inverted button">Try For
-              Free</a>
+  <%include ./partials/sideMenu%>
+    <!--Page Contents-->
+    <div class="pusher">
+      <%include ./partials/menuBar%>
+        <div id="hero">
+          <div class="ui text container">
+            <h1 class="ui header">
+              WorkForce management Application
+            </h1>
+            <h2>
+              Scheduling, staffing, time reporting, communication and task
+              management has never been easier!
+            </h2>
+
+            <a class="ui huge orange button" href="/try_for_free">Try For Free<i
+                class="right arrow icon"></i></a>
+
+
           </div>
         </div>
       </div>
-      <div class="ui text container">
-        <h1 class="ui header">
-          WorkForce management Application
-        </h1>
-        <h2>
-          Scheduling, staffing, time reporting, communication and task
-          management has never been easier!
-        </h2>
-        <div class="ui huge orange button">
-          Calculate ROI<i class="right arrow icon"></i>
-        </div>
-      </div>
-    </div>
-    <div class="ui hidden divider"></div>
-    <div class="ui two column centered stackable grid">
-      <div class="ui column center aligned"><h1 class="ui header">Welcome to the
-          future of workforce management</h1></div>
-      <div class="six column centered row">
-        <div class="column center aligned"><h4 class="ui small red inverted
-            header">COMPLETE CONTROL</h4>
-          <br>
-          Set the schedule for your entire organisation or individual
-          departments with a simple click. The system checks against working
-          time directives and employee contracts – giving you peace of mind.</div>
-        <div class="column center aligned"><h4 class="ui small yellow inverted
-            header">INCREASED PRODUCTIVITY</h4><br>
-          Create an optimal schedule with the help of forecast algorithms and
-          rules. This will make sure you have the right person, with the right
-          skills, at the right place – at the right time.</div>
-
-        <div class="column center aligned"><h4 class="ui small green inverted
-            header">SAVE MONEY</h4><br>
-          Staff planning and sound finances go hand in hand. Taking expected
-          sales into account when creating the schedule can do wonders for your
-          profit margin.</div>
-      </div>
-    </div>
-    <div class="ui middle aligned stackable grid container">
-      <div class="row">
-        <div class="eight wide column">
-          <h3 class="ui header">
-            Welcome to the future of workforce management
-          </h3>
-          <p>
-            We can give your company superpowers to do things that they never
-            thought possible. Let us delight your customers and empower your
-            needs...through pure data analytics.
-          </p>
-          <h3 class="ui header">
-            We Make Bananas That Can Dance
-          </h3>
-          <p>
-            Yes that's right, you thought it was the stuff of dreams, but even
-            bananas can be bioengineered.
-          </p>
-        </div>
-        <div class="six wide right floated column">
-
-        </div>
-      </div>
-      <div class="row">
-        <div class="center aligned column">
-          <a class="ui huge button">Check Them Out</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="ui vertical stripe quote segment">
-    <div class="ui equal width stackable internally celled grid">
-      <div class="center aligned row">
-        <div class="column">
-          <h3>
-            "What a Company"
-          </h3>
-          <p>
-            That is what they all say about us
-          </p>
-        </div>
-        <div class="column">
-          <h3>
-            "I shouldn't have gone with their competitor."
-          </h3>
-          <p>
-            <b>Nan</b>Chief Fun Officer Acme Toys
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="ui vertical stripe segment">
-    <div class="ui text container">
-      <h3 class="ui header">
-        Breaking The Grid, Grabs Your Attention
-      </h3>
-      <p>
-        Instead of focusing on content creation and hard work, we have learned
-        how to master the art of doing nothing by providing massive amounts of
-        whitespace and generic content that can seem massive, monolithic and
-        worth your attention.
-      </p>
-      <a class="ui large button">Read More</a>
-      <h4 class="ui horizontal header divider">
-        <a href="homepage.html#"> Case Studies</a>
-      </h4>
-      <h3 class="ui header">
-        Did We Tell You About Our Bananas?
-      </h3>
-      <p>
-        Yes I know you probably disregarded the earlier boasts as non-sequitur
-        filler content, but its really true. It took years of gene splicing and
-        combinatory DNA research, but our bananas can really dance.
-      </p>
-      <a class="ui large button">I'm Still Quite Interested</a>
-    </div>
-  </div>
-  <div class="ui inverted vertical footer segment">
-    <div class="ui container">
-      <div class="ui stackable inverted divided equal height stackable grid">
-        <div class="three wide column">
-          <h4 class="ui inverted header">
-            About
-          </h4>
-          <div class="ui inverted link list">
-            <a class="item" href="homepage.html#"> Sitemap</a><a class="item"
-              href="homepage.html#"> Contact Us</a><a class="item"
-              href="homepage.html#"> Religious Ceremonies</a><a class="item"
-              href="homepage.html#"> Gazebo Plans</a>
-          </div>
-        </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">
-            Services
-          </h4>
-          <div class="ui inverted link list">
-            <a class="item" href="homepage.html#"> Banana Pre-Order</a><a
-              class="item" href="homepage.html#"> DNA FAQ</a><a class="item"
-              href="homepage.html#"> How To Access</a><a class="item"
-              href="homepage.html#"> Favorite X-Men</a>
-          </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui inverted header">
-            Footer Header
-          </h4>
-          <p>
-            Extra space for a call to action inside the footer that could help
-            re-engage users.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<script src="./dist/semantic-ui/semantic.min.js"></script>
-<script src="./javascripts/index.js"></script>
 
 
-<%include ./partials/footer%>
+      <div id="welcomeSegment" class="ui two column centered stackable grid">
+        <div class="ui column center aligned"><h1 class="ui huge header">Welcome
+            to the
+            future of workforce management</h1></div>
+        <div class="four column centered row">
+          <div class="column center aligned"><h4 class="ui small
+              header">COMPLETE CONTROL</h4>
+            <br>
+            Set the schedule for your entire organisation or individual
+            departments with a simple click. The system checks against working
+            time directives and employee contracts – giving you peace of mind.</div>
+          <div class="column center aligned"><h4 class="ui small
+              header">INCREASED PRODUCTIVITY</h4><br>
+            Create an optimal schedule with the help of forecast algorithms and
+            rules. This will make sure you have the right person, with the right
+            skills, at the right place – at the right time.</div>
+
+          <div class="column center aligned"><h4 class="ui small
+              header">SAVE MONEY</h4><br>
+            Staff planning and sound finances go hand in hand. Taking expected
+            sales into account when creating the schedule can do wonders for
+            your
+            profit margin.</div>
+        </div>
+      </div>
+      <div id="aboutDivider"></div>
+      <%include ./partials/footer%>
+      </div>

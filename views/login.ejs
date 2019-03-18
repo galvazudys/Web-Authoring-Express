@@ -1,0 +1,39 @@
+<%include ./partials/header%>
+
+    <!--Sidebar Menu-->
+    <%include ./partials/sideMenu%>
+
+        <div class="pusher">
+            <%include ./partials/menuBar%>
+                <div class="ui container pushFooter">
+                    <form action="/api/users/login" enctype='application/json'
+                        method="POST">
+
+
+                        <div class="ui big form">
+                            <div class="two fields">
+                                <div class="field">
+                                    <label>Email</label>
+                                    <input name='user[email]'
+                                        placeholder="email" type="text">
+                                </div>
+                                <div class="field">
+                                    <label>Password</label>
+                                    <input name='user[password]'
+                                        placeholder="Password"
+                                        type="password">
+                                </div>
+                            </div>
+
+                            <input class='ui fluid olive submit button'
+                                type="submit"
+                                value="Login">
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+                <%include ./partials/footer%>
+                </div>

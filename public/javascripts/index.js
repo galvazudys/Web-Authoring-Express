@@ -14,4 +14,4 @@ $(document).ready(function() {
   $('.ui.sidebar').sidebar('attach events', '.toc.item');
 });
 
-$('.ui.two.column.centered.stackable.grid').transition('fade down');
+$('.ui.embed').embed();
