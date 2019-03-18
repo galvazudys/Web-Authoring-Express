@@ -271,3 +271,11 @@ a {
 blockquote {
   border-left: 1px solid green;
 }
+
+#pricingPusher {
+  min-height: 100vh;
+}
+
+#testimonialsHeader {
+  padding: 7rem 0 7rem 0;
+}

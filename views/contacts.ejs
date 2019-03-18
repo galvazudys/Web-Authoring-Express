@@ -3,7 +3,46 @@
     <!--Sidebar Menu-->
     <%include ./partials/sideMenu%>
 
-        <div class="pusher">
+        <div id="pricingPusher" class="pusher">
             <%include ./partials/menuBar%>
-                <%include ./partials/footer%>
+                <div class="ui inverted sizer vertical segment">
+                    <div class="ui huge header">Contact Us</div>
+                    <p>We’d love to hear from you!</p>
+
                 </div>
+                <div class="ui container pushFooter">
+                    <form action="/api/users/login" enctype='application/json'
+                        method="POST">
+
+
+                        <div class="ui big form">
+                            <div class="two fields">
+                                <div class="field">
+                                    <label>Email</label>
+                                    <input name='user[email]'
+                                        placeholder="Email" type="text">
+                                </div>
+                                <div class="field">
+                                    <label>Name</label>
+                                    <input name='user[password]'
+                                        placeholder="Password" type="text">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Text</label>
+                                <textarea></textarea>
+                            </div>
+
+                            <input class='ui fluid olive submit button'
+                                type="submit" value="Send Message">
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+
+            </div>
+            <div id="aboutDivider"></div>
+            <%include ./partials/footer%>
